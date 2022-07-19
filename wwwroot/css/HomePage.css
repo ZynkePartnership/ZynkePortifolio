@@ -1,0 +1,19 @@
+
+.HomePage{
+display: flex;
+}
+.HomePage aside{
+flex: 30%;
+background-color: #b9b9b9;
+padding: 20px;
+}
+.HomePage article{
+flex: 70%;
+padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .HomePage{
+        flex-direction: column;
+    }
+}
